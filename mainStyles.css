@@ -1,0 +1,94 @@
+@charset "ISO-8859-1";
+*, *::before, *::after{
+	box-sizing: border-box;
+	font-family: Gotham Rounded, sans-serif;
+	font-weight: normal;
+}
+
+body{
+    background-image: url("mainBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu{
+    padding: 2rem;
+    display: grid;
+    background-image: url("menuBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+
+.title{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    align-content: center;
+    color: rgb(0, 40, 75);
+    padding-bottom: 20px;
+}
+
+a:link, a:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+a:hover{
+    background-color: rgba(244, 67, 54, .7);
+}
+
+.main-content{
+    text-align: center;
+}
+
+.block-text{
+    background-color: rgba(70, 244, 54, 0.6);
+    border-radius: 25px;
+    color: aliceblue;
+}
+
+button.block-text{
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+button.block-text:hover{
+    background-color: rgba(70, 244, 54, 1);
+    cursor: pointer;
+}
+
+.sub-title{
+    font-weight: 800;
+    padding-top: 30px;
+    font-size: large;
+}
+
+.italic{
+    padding-bottom: 30px;
+    font-style: italic;
+}
+
+.bold{
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+a.app-link{
+    background-color: rgba(70, 244, 54, 0.6);
+    border-radius: 25px;
+    color: aliceblue;
+}
+
+.divider{
+    width: 5px;
+    hight: auto;
+    display: inline-block;
+}
